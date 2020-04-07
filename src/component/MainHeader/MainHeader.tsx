@@ -1,9 +1,9 @@
 import React from 'react';
-import styles from './MainHeader.module.scss';
+import style from './MainHeader.module.scss';
 
 class MainHeader extends React.Component {
     render() {
-        return <h1>Hello</h1>;
+        return <div className={style.mainHeader}>my header</div>;
     }
 }
 
